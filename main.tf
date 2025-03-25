@@ -1,7 +1,3 @@
-resource local_file name {
-<<<<<<< HEAD
-    
+resource "aws_instance" "name" {
 
-=======
-  
->>>>>>> feature1
+ 
