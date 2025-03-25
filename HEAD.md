@@ -1,1 +1,1 @@
-## this code is to create lightsail
+## this code to create lightsail
