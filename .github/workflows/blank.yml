@@ -14,13 +14,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check Uptime
-        run: uptime
-   ame: CI
+          echo test, and deploy your project
+name: CI
 
 on:
   push:
@@ -45,4 +40,4 @@ jobs:
       - name: Cpu info
         run: nproc
       - name: kernel info 
-        run: uname -r 
+        run: uname -r
